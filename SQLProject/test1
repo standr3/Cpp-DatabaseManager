@@ -1,0 +1,11 @@
+crEate table tabel_1 ((col1, int, 30, 0), (col2, float, 20, 43.3), (col3, text, 10, 'salut'));
+insert into  tabel_1(36, 26.6, 'sd');
+display table tabel_1;
+select (col1) from tabel_1;
+insert into  tabel_1 (36, 26.6, 'sd');
+insert into  tabel_1 (3, 2.6, 'sspa'); 
+select all from tabel_1 where col1 = 3.0;
+delete from  tabel_1 where col1 =  3; 
+drop table tabel_1;				
+update tabel_1 set col1 = 3 where col2 = 4;
+display table tabel_1;

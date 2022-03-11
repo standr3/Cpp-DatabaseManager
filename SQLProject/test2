@@ -1,0 +1,27 @@
+  
+drop table tabel_1; 
+delete from  tabel_1 where col1 =  3; 
+
+
+					
+						 
+
+							
+								
+
+
+
+
+update tabel_1 set col1 = 3 where col2 = 4;
+crEate table tabel_1 ((col1, int, 30, 0), (col2, float, 20, 43.3), (col3, text, 10, 'salut'));
+create table tabel_2 ((col1_1, int, 30, 0));
+display table tabel_1;
+insert into  tabel_1 (36, 26.6, 'sdf');
+insert into  tabel_1 (3, 2.6, 'sdd'); 
+
+select all from tabel1;
+select (col3) from tabel3;
+select (col1, col2) from tabel2;
+select all from tabel1 where col1 = 3.0;
+select (col1, col2) from tabel2 where col3 = 'sa';
+select (col3) from tabel2 where col1 = 2;
